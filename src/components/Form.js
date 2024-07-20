@@ -21,7 +21,7 @@ const Form = () => {
                             }}
                         />
                     </div>
-                    <button className="btn btn-primary col-1" onClick={() => {
+                    <button className="btn col-1" onClick={() => {
                         dispatch({ type: 'deposit', payload: amount })
                         setAmount('')
                     }}>Deposit</button>
