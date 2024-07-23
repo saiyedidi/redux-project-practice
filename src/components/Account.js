@@ -2,6 +2,7 @@ import { useSelector } from "react-redux"
 const Account =()=>{
    let data= useSelector((item)=>{
          return item
+         
     })
     return(
         <>
